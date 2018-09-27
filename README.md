@@ -1,5 +1,6 @@
 # Examples of Test Driven Development Agile Methodology
 
+## Introduction
 The definition of Test-driven development extracted from [article][1] in Wikipedia is :
 
 Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements.
@@ -10,10 +11,8 @@ Test-driven development is related to the test-first programming concepts of ext
 
 Programmers also apply the concept to improving and debugging legacy code developed with older techniques.
 
-Test-driven development cycle
-A graphical representation of the test-driven development lifecycle
-
-The following sequence is based on the book Test-Driven Development by Example:
+## Test-driven development cycle
+The following sequence is based on the book [Test-Driven Development by Example][2]:
 
 ![A graphical representation of the test-driven development lifecycle](https://upload.wikimedia.org/wikipedia/commons/0/0b/TDD_Global_Lifecycle.png)
 
@@ -33,14 +32,17 @@ The following sequence is based on the book Test-Driven Development by Example:
    * Starting with another new test, the cycle is then repeated to push forward the functionality. The size of the steps should always be small, with as few as 1 to 10 edits between each test run. If new code does not rapidly satisfy a new test, or other tests fail unexpectedly, the programmer should undo or revert in preference to excessive debugging. Continuous integration helps by providing revertible checkpoints. When using external libraries it is important not to make increments that are so small as to be effectively merely testing the library itself,[4] unless there is some reason to believe that the library is buggy or is not sufficiently feature-complete to serve all the needs of the software under development.
 
 
-The examples provided in this repository where exatracted from [Testing_Python_Applications_with_Pytest][2].
+The examples provided in this repository where exatracted from [Testing_Python_Applications_with_Pytest][3].
 
 ![Testing_Python_Applications_with_Pytest](https://d2l3jyjp24noqc.cloudfront.net/uploads/image/img/538/Testing_Python_Applications_with_Pytest.png)
 
 References :
 1. https://en.wikipedia.org/wiki/Test-driven_development
 2. https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+3. Beck, K. Test-Driven Development by Example, Addison Wesley - Vaseem, 2003
 
 [1]: https://en.wikipedia.org/wiki/Test-driven_development
-[2]: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+[2]: https://en.wikipedia.org/wiki/Test-driven_development#cite_ref-Beck_2-0
+[3]: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+
 
