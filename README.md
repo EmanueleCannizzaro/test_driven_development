@@ -1,7 +1,6 @@
-# test_driven_development
-Examples of Test Driven Development Agile Methodology
+# Examples of Test Driven Development Agile Methodology
 
-The definition of Test-driven development extracted from Wikipedia is :
+The definition of Test-driven development extracted from [Wikipedia][1] is :
 
 Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements.
 
@@ -32,3 +31,14 @@ The following sequence is based on the book Test-Driven Development by Example:
     The concept of removing duplication is an important aspect of any software design. In this case, however, it also applies to the removal of any duplication between the test code and the production code—for example magic numbers or strings repeated in both to make the test pass in Step 3.
 6. Repeat
    * Starting with another new test, the cycle is then repeated to push forward the functionality. The size of the steps should always be small, with as few as 1 to 10 edits between each test run. If new code does not rapidly satisfy a new test, or other tests fail unexpectedly, the programmer should undo or revert in preference to excessive debugging. Continuous integration helps by providing revertible checkpoints. When using external libraries it is important not to make increments that are so small as to be effectively merely testing the library itself,[4] unless there is some reason to believe that the library is buggy or is not sufficiently feature-complete to serve all the needs of the software under development.
+
+
+The examples provided in this repository where exatracted from [Testing_Python_Applications_with_Pytest][2].
+
+![Testing_Python_Applications_with_Pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest)
+
+References :
+
+[1]: https://en.wikipedia.org/wiki/Test-driven_development
+[2]: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+
