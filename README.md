@@ -1,6 +1,6 @@
 # Examples of Test Driven Development Agile Methodology
 
-The definition of Test-driven development extracted from [Wikipedia][1] is :
+The definition of Test-driven development extracted from [article][1] in Wikipedia is :
 
 Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. This is opposed to software development that allows software to be added that is not proven to meet requirements.
 
@@ -35,9 +35,11 @@ The following sequence is based on the book Test-Driven Development by Example:
 
 The examples provided in this repository where exatracted from [Testing_Python_Applications_with_Pytest][2].
 
-![Testing_Python_Applications_with_Pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest)
+![Testing_Python_Applications_with_Pytest](https://d2l3jyjp24noqc.cloudfront.net/uploads/image/img/538/Testing_Python_Applications_with_Pytest.png)
 
 References :
+1. https://en.wikipedia.org/wiki/Test-driven_development
+2. https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
 
 [1]: https://en.wikipedia.org/wiki/Test-driven_development
 [2]: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
